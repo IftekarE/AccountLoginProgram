@@ -26,7 +26,7 @@ function varify(inputtxt) { //based on the input of the user the function is car
                 count = 0;
             }
             }else{ 
-            meshold0 = "Password is not Strong, try again.";
+            meshold0 = "Password is not Strong enough! It must include a capital and lowercase letter, number, and must be 10 characters long";
             display();
             }
         }   
